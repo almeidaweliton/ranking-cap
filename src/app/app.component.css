@@ -1,0 +1,27 @@
+main {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f6fa;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+footer {
+  margin-top: auto;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f6fa;
+  border-top: solid 0.75px #dfdfdf;
+}
+footer p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  margin: 0px;
+  text-decoration: none;
+  color: #7c848c;
+}
