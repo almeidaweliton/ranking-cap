@@ -6,20 +6,20 @@ import { RankingComponent } from './pages/ranking/ranking.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'ranking-cap',
     redirectTo: 'ranking',
     pathMatch: 'full'
   },
   {
-    path: 'ranking',
+    path: 'ranking-cap/ranking',
     component: RankingComponent
   },
   {
-    path: 'cadastrar-notas',
+    path: 'ranking-cap/cadastrar-notas',
     component: CadastroNotasComponent
   },
   {
-    path: '**',
+    path: 'ranking-cap/**',
     component: PageNotFoundComponent,
   }
 ];
