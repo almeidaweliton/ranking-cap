@@ -1,15 +1,18 @@
 main {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f6fa;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  top: 60px;
+  left: 0px;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 60px);
   overflow: auto;
+  background-color: #fbfbfb;
 }
 footer {
   margin-top: auto;
+  height: 60px;
+  z-index: 1;
   padding: 8px;
   display: flex;
   justify-content: center;

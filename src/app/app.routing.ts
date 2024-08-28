@@ -15,7 +15,7 @@ const routes: Routes = [
     component: RankingComponent
   },
   {
-    path: 'cadastro-de-notas',
+    path: 'cadastrar-notas',
     component: CadastroNotasComponent
   },
   {
